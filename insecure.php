@@ -1,3 +1,10 @@
+<?php
+/**
+ * Plugin Name: Group2
+ * Description: Insecure Design
+ * Author: Group 2
+ */
+
 function Main() {
     if(!is_page('group2') || post_password_required()) {
         return;
